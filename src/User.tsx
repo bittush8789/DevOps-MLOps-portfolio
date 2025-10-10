@@ -1,8 +1,9 @@
+
 import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandMedium, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Bittu Sharma",
-    stack: ["DevOps Engineer", "MLOps Engineer", "AI Engineer"],
-    bio: "Hello, I’m Bittu Sharma, a DevOps & MLOps Engineer with a deep passion for emerging technologies. I’m eager to leverage my expertise and skills to assist the organization in delivering top-quality software products.!"
+    stack: ["DevOps Engineer", "MLOps Engineer", "AIOps Engineer","LLMOps Engineer"],
+    bio: "  Hi, I’m Bittu Sharma — a passionate DevOps, MLOps, AIOps, and LLMOps Engineer focused on automating workflows, optimizing infrastructure, and integrating AI-driven solutions to deliver scalable and high-quality software products.!"
 }
 
 
@@ -35,29 +36,72 @@ const ProjectInfo = [
         link: "https://github.com/bittush8789/Terraform_Mega_Project",
         github: "https://github.com/bittush8789/Terraform_Mega_Project"
     },  
+    {
+        title: "Microservices Deployment",
+        desc: "Designed and implemented a CI/CD pipeline for deploying 10 microservices using Jenkins.Configured AWS EKS cluster using AWS CLI for scalable microservices deployment.Automated build, test, and deployment processes using Jenkins Pipeline.Managed containerized applications using Docker and Kubernetes.Deployed and monitored microservices running on AWS EC2 and Kubernetes Pods.Integrated GitHub for source code versioning and automated deployments.",
+        image: "Microservies.png",
+        technologies: ["AWS EKS", "Kubernetes","Jenkins","Docker","GitHub"],
+        link: "https://bittublog.hashnode.dev/microservices-on-kubernetes-cluster-via-jenkins-cicd-pipeline",
+        github: "https://github.com/bittush8789/Microservice.git"
+    }, 
+    {
+        title: "CI/CD Pipeline for Automated Deployment",
+        desc: "Designed and implemented a CI/CD pipeline using GitHub Actions, automating build, test, security scans, and deployments.Used Maven for code compilation, unit testing, and artifact packaging.Integrated SonarQube for code quality checks and Trivy for vulnerability scanning.Containerized applications using Docker and deployed them to Kubernetes.Managed Nexus Repository for artifact storage and Docker images.Set up monitoring with Prometheus and Grafana to track application performance and health.",
+        image: "Github_Actions.png",
+        technologies: ["GitHub Actions", "Maven","SonarQube","Trivy","Docker","Kubernetes","Nexus Repository","Prometheus & Grafana"],
+        link: "https://bittublog.hashnode.dev/8j2xmfcdmilwnze58j2xufcdl6bwnzib8j2xrvcdl7dwnze4ipcdl53wnzeu8j2xqfcdl5qg8j2xrvcdl73wnze98j2xufcdl7bwnzew8j2xrvcdmihwnze28j2xvpcdl7sg8j2xsfcdl7lwnze98j2xufcdl7zwnzig8j2xuvcdl7lwnze78j2ygsdwnze88j2xuydwnzee8j2ygvcdl6wnzey8j2xvcdl7vwnzey8j2ygfcdl7lwnziaipcdmihwnze18j2xvcdl7zwnzic8j2xtpcdl7ug8j2xmvcdl7bwnzib8j2xmcdmilwnzevipcdl5twnzew8j2ygfcdl7bwnze88j2xuw",
+        github: "https://github.com/bittush8789/Boardgame.git"
+    }, 
+    {
+        title: "Ansible VM Monitor Automation",
+        desc: "Developed VM monitoring automation using Ansible to track system health across multiple servers. Collected and reported CPU, memory, disk, and network metrics.Implemented Infrastructure as Code (IaC) principles for consistency.Automated email alerts for critical performance data.",
+        image: "Ansible.png",
+        technologies: ["AWS EC2", "Terraform","Python","Docker","Bash"],
+        link: " https://github.com/bittush8789/ANSIBLE-VM-MONITOR.git",
+        github: "https://github.com/bittush8789/ANSIBLE-VM-MONITOR.git"
+    },
+    {
+        title: "CloudWatch-Logs-Analyzer",
+        image: "Amazon_Q.png",
+        desc: " A Streamlit application for analyzing AWS Lambda function logs from CloudWatch. Provides visual analytics and insights to help developers and DevOps engineers understand performance patterns, identify errors, and op  timize resource usage.",
+        technologies: ["AWS CloudWatch", "Python (Boto3)","Amazon Q","AWS CLI"],
+        link: " https://github.com/bittush8789/CloudWatch-Logs-Analyzer.git",
+        github: "https://github.com/bittush8789/CloudWatch-Logs-Analyzer.git"
+    },
+        {
+        title: "MLOps Pipeline for Diabetes Prediction",
+        image: "MLOps.png",
+        desc:   "This is an end-to-end machine learning operations pipeline designed to predict diabetes using health-related data. The project walks through key MLOps practices including model development, API creation, containerization, and orchestration. It starts with training a machine learning model using features like glucose levels, BMI, and age, followed by developing a FastAPI-based REST API to serve predictions. The application is then containerized using Docker and deployed using Kubernetes for scalable, production-ready service delivery. With components like train.py, main.py, Dockerfile, and k8s-deploy.yml, this project provides a hands-on introduction to modern ML deployment workflows.",
+        technologies: ["Python", "FastAPI","Docker","Kubernetes", ],
+        link: " https://github.com/bittush8789/first-mlops-project.git",
+        github: "https://github.com/bittush8789/first-mlops-project.git"
+    },
     
+
 
 ]
 
 
 const SkillInfo = [
-    {
+     {
         title: "DevOps",
-        skills: ["Docker", "kubernetes","Jenkins", "GitLab", "CircleCI", "Ansible", "Terraform", "AWS", "Linux","Prometheus","Grafana"
+        skills: ["Jenkins", "kubernetes","docker", "GitLab", "CircleCI", "Ansible", "Terraform", "AWS", "Linux","Prometheus","Grafana"
         ]
     },
     {
         title: "MLOps",
-        skills: ["AWS Sagemaker", "kubeflow", "MLflow", "MySQL", "MongoDB", "Airflow", "DVC","LangChain"]
+        skills: ["AWS Sagemaker", "Kubeflow", "MLflow", "MySQL", "MongoDB", "Airflow", "DVC","LangChain","Github Actions"]
     },
     {
-        title: "Backend Development",
-        skills: ["Python", "Java", "Django", "Flask", "FastAPI"]
+        title: "Generative Ai",
+        skills: ["Python", "Flask", "FastAPI","LangChain","Crew Ai","Agentic Ai","Huggingface","NLP","VectorDB"]
     },
+
     {
-        title: "Tools",
-        skills: ["Git","Jira", "Postman", "ChatGPT", "Copilot","Gemini"]
+        title: "DevSecOps",
+        skills: ["Git","Jira", "Postman", "SonarQube", "Trivy","Nexus","QWASP"]
     }
+
 ]
 const socialLinks = [
     { link: "https://github.com/bittush8789", icon: IconBrandGithub },
@@ -70,18 +114,18 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "Associate Analyst",
-        company: "EXL Service.com india Pvt ltd",
+        role: "Associate Analyst-DevOps",
+        company: "EXL Service inida Pvt Ltd",
         date: "April 2024 - Present",
-        desc: "As an Associate Analyst, I collect and clean data to ensure accuracy, analyze it using tools like Excel, Python to find useful insights, and create reports and visualizations to present my findings. I collaborate with team members and clients to support various projects, develop models for forecasting, and implement data-driven solutions. I also conduct research on industry trends, document my analysis processes, and continuously improve my skills through training and workshops.",
-        skills: ["Python", "Docker", "Kubernetes", "DevOps", "Linux", "AWS", "Troubleshooting"]
+        desc: "As an Associate Analyst (DevOps), I work on automating build, deployment, and monitoring processes to enhance development efficiency and system reliability. I manage CI/CD pipelines, containerize applications using Docker, and deploy them on Kubernetes clusters. My responsibilities include maintaining cloud infrastructure on AWS, implementing Infrastructure as Code (IaC) with Terraform, and ensuring system scalability and security. I collaborate with development teams to streamline workflows, resolve production issues, and optimize performance through automation and continuous improvement initiatives.",
+        skills: ["Monitoring (Prometheus, Grafana, CloudWatch)", "Kubernetes", "DevOps", "Linux", "AWS", "Terraform", "Ansible", "Git", "GitHub", "CI/CD","Docker"]
     },
     {
         role: "Machine Learning intern",
         company: "InternsElite",
         date: "Sep 2023 - Nov 2023",
-        desc: " As a machine learning intern, I am developing and training machine learning models using various techniques, clean and preprocess datasets, implement feature engineering to enhance model performance, and collaborate with senior data scientists to design experiments. Additionally, I'll optimize code for efficiency, participate in deploying models into production environments, and document the entire process. I’ll also explore and experiment with new machine learning techniques to tackle complex problems.",
-        skills: ["Python", "Tenserflow", "Keras", "PyTorch", "AWS", "Git","SQL","MongoDB"]
+        desc: " As a Machine Learning Intern, I worked on developing, training, and evaluating machine learning models using Python and leading ML frameworks. I handled data preprocessing, feature engineering, and exploratory data analysis to improve model accuracy and performance. Collaborated with senior data scientists to design experiments, optimize algorithms, and deploy models into production environments. Additionally, I contributed to automating workflows, maintaining version control, and documenting the end-to-end ML pipeline.",
+        skills: ["Python", "Tenserflow", "Keras", "PyTorch", "AWS", "Git","SQL", "Git","SQL & MongoDB","Feature Engineering"],
     }
 ]
 const Slugs = [
