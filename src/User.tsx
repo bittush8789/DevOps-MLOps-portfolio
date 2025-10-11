@@ -118,14 +118,14 @@ const ExperienceInfo = [
         company: "EXL Service inida Pvt Ltd",
         date: "April 2024 - Present",
         desc: "As an Associate Analyst (DevOps), I work on automating build, deployment, and monitoring processes to enhance development efficiency and system reliability. I manage CI/CD pipelines, containerize applications using Docker, and deploy them on Kubernetes clusters. My responsibilities include maintaining cloud infrastructure on AWS, implementing Infrastructure as Code (IaC) with Terraform, and ensuring system scalability and security. I collaborate with development teams to streamline workflows, resolve production issues, and optimize performance through automation and continuous improvement initiatives.",
-        skills: ["Monitoring (Prometheus, Grafana, CloudWatch)", "Kubernetes", "DevOps", "Linux", "AWS", "Terraform", "Ansible", "Git", "GitHub", "CI/CD","Docker"]
+        skills: ["Monitoring (Prometheus, Grafana, CloudWatch)", "Kubernetes", "DevOps", "Linux", "AWS", "Terraform", "Ansible", "Git", "CI/CD","Docker"]
     },
     {
         role: "Machine Learning intern",
         company: "InternsElite",
         date: "Sep 2023 - Nov 2023",
         desc: " As a Machine Learning Intern, I worked on developing, training, and evaluating machine learning models using Python and leading ML frameworks. I handled data preprocessing, feature engineering, and exploratory data analysis to improve model accuracy and performance. Collaborated with senior data scientists to design experiments, optimize algorithms, and deploy models into production environments. Additionally, I contributed to automating workflows, maintaining version control, and documenting the end-to-end ML pipeline.",
-        skills: ["Python", "Tenserflow", "Keras", "PyTorch", "AWS", "Git","SQL", "Git","SQL & MongoDB","Feature Engineering"],
+        skills: ["Python", "Tenserflow", "Keras", "PyTorch", "AWS", "Git","SQL & MongoDB","Feature Engineering"],
     }
 ]
 const Slugs = [
