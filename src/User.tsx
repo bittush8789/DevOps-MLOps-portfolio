@@ -2,10 +2,9 @@
 import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandMedium, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Bittu Sharma",
-    stack: ["DevOps Engineer", "MLOps Engineer", "Ai Engineer],
-    bio: "  Hi, I’m Bittu Sharma — a passionate DevOps, MLOps, AIOps, and LLMOps Engineer focused on automating workflows, optimizing infrastructure, and integrating AI-driven solutions to deliver scalable and high-quality software products.!"
+    stack: ["DevOps Engineer", "MLOps Engineer"],
+    bio: "I’m Bittu Sharma, a DevOps, MLOps & AI Engineer with a strong interest in building intelligent, automated systems. My goal is to bridge the gap between software engineering and data science, enabling scalable deployments and efficient model operations in production.!"
 }
-
 
 
 const ProjectInfo = [
